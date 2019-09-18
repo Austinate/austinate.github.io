@@ -1,5 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
 
 export default ({ children }) => (
   <footer
@@ -23,7 +22,7 @@ export default ({ children }) => (
       {children}
       <div style={{ fontSize: "12pt" }}>
         © {new Date().getFullYear()} Ostap Taran. This website is made with{" "}
-        <a href="https://gatsbyjs.org">Gatsby.js</a>
+        <a href="https://gatsbyjs.org" target="_blank"  rel="noopener noreferrer">Gatsby.js</a>
       </div>
     </div>
   </footer>
