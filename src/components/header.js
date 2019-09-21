@@ -10,7 +10,7 @@ const ListLink = props => (
 export default props => (
   <header style={{ maringBottom: "1.5rem" }}>
     <Link to="/" style={{ textShadow: "none", backgroundImage: "none" }}>
-      <h3 style={{ display: "inline" }}>ausinate.me</h3>
+      <h3 style={{ display: "inline" }}>austinate.me</h3>
     </Link>
     <ul style={{ listStyle: " none", float: "right" }}>
       {/* <ListLink to="/">Home</ListLink>

@@ -5,6 +5,9 @@
  */
 
 module.exports = {
+  siteMetadata: {
+    title: 'Ostap Taran'
+  },
   plugins: [
     {
       resolve: `gatsby-plugin-typography`,
