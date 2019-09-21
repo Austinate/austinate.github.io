@@ -3,9 +3,6 @@ import React from "react"
 export default ({ children }) => (
   <footer
     style={{
-      position: "absolute",
-      bottom: "0",
-      //   backgroundColor: "red",
       width: "100%",
       padding: `3rem auto`,
     }}
