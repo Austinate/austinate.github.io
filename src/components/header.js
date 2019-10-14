@@ -15,6 +15,7 @@ export default props => (
     <ul style={{ listStyle: " none", float: "right" }}>
       {/* <ListLink to="/">Home</ListLink>
       <ListLink to="/contacts">Contacts</ListLink> */}
+      {/* <ListLink to="/projects">Projects</ListLink> */}
       <ListLink to="/about">About</ListLink>
     </ul>
     <h2>{props.title}</h2>
