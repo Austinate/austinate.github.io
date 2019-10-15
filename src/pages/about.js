@@ -8,7 +8,7 @@ export default () => (
       🇺🇦
     </span>
     <p />
-    Currently, I'm holding a position of CTO at <a href="7devs.co">7Devs</a>.
+    Currently, I'm holding a position of CTO at <a href="https://7devs.co">7Devs</a>.
     <br />
     You can find me on{" "}
     <a href="https://www.linkedin.com/in/ostap-taran-9aba5b83/">
