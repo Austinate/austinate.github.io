@@ -3,12 +3,14 @@ import Layout from "../components/layout"
 
 export default () => (
   <Layout title="About">
-    I'm Ostap Taran, I'm an iOS developer currently living in Kharkiv, Ukraine{" "}
+    Hi! I'm Ostap Taran.<br/>
+     I'm an iOS developer currently living in Kharkiv, Ukraine{" "}
     <span role="img" aria-label="flag of Ukraine">
       🇺🇦
     </span>
     <p />
-    Currently, I'm holding a position of CTO at <a href="https://7devs.co">7Devs</a>.
+    Currently, I'm holding a position of CTO at{" "}
+    <a href="https://7devs.co">7Devs</a>.
     <br />
     You can find me on{" "}
     <a href="https://www.linkedin.com/in/ostap-taran-9aba5b83/">
@@ -16,8 +18,11 @@ export default () => (
     </a>, <a href="https://twitter.com/muroomsh">Twitter</a> and{" "}
     <a href="https://www.instagram.com/austinate/">Instagram</a>
     <p />
-    Previously I worked at the following companies:
+    My detailed work experience:
     <ul>
+      <li>
+        May 2017 - Present, CTO at <a href="https://7devs.co">7Devs</a>
+      </li>
       <li>
         Jan 2017 - May 2017, iOS Team Lead at{" "}
         <a href="https://www.linkedin.com/company/tbwamobile/">
