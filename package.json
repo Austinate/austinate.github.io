@@ -28,8 +28,8 @@
     "typography-theme-twin-peaks": "^0.16.19"
   },
   "devDependencies": {
-    "gatsby-cli": "^2.8.1",
-    "prettier": "^1.18.2"
+    "gatsby-cli": "^2.11.3",
+    "prettier": "^2.0.2"
   },
   "repository": {
     "type": "git",
