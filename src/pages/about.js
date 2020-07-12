@@ -9,8 +9,8 @@ export default () => (
       🇺🇦
     </span>
     <p />
-    Currently, I'm holding a position of CTO at{" "}
-    <a href="https://7devs.co">7Devs</a>.
+    Currently, I'm holding a position of Lead iOS Software Engineer at{" "}
+    <a href="https://epam.com">EPAM</a>.
     <br />
     You can find me on{" "}
     <a href="https://www.linkedin.com/in/ostap-taran-9aba5b83/">
@@ -18,10 +18,10 @@ export default () => (
     </a>, <a href="https://twitter.com/muroomsh">Twitter</a> and{" "}
     <a href="https://www.instagram.com/austinate/">Instagram</a>
     <p />
-    My detailed work experience:
+    My previous experience:
     <ul>
       <li>
-        May 2017 - Present, CTO at <a href="https://7devs.co">7Devs</a>
+        May 2017 - June 2020, CTO & Co-founder at <a href="https://7devs.co">7Devs</a>
       </li>
       <li>
         Jan 2017 - May 2017, iOS Team Lead at{" "}
