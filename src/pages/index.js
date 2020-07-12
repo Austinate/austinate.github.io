@@ -15,9 +15,6 @@ import Layout from "../components/layout"
 export default ({ data }) => (
   <Layout>
     <h1 style={{ textAlign: 'center' }}>
-      <span role="img" aria-label="warning emoji">
-        ⚠️
-      </span>{" "}
       Blog in progress{" "}
       <span role="img" aria-label="tools emoji">
         🛠
