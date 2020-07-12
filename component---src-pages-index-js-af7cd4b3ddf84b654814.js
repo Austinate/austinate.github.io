@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[5],{RXBc:function(e,t,n){"use strict";n.r(t);var a=n("q1tI"),l=n.n(a),o=n("Bl7J");t.default=function(e){e.data;return l.a.createElement(o.a,null,l.a.createElement("h1",{style:{textAlign:"center"}},"Blog in progress"," ",l.a.createElement("span",{role:"img","aria-label":"tools emoji"},"🛠")),'Until there will be any blog posts you can just check the "About" section.')}}}]);
+//# sourceMappingURL=component---src-pages-index-js-af7cd4b3ddf84b654814.js.map
