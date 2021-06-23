@@ -7,7 +7,7 @@ const ListLink = props => (
   </li>
 )
 
-export default props => (
+const header = props => (
   <header style={{ maringBottom: "1.5rem" }}>
     <Link to="/" style={{ textShadow: "none", backgroundImage: "none" }}>
       <h3 style={{ display: "inline" }}>austinate.me</h3>
@@ -20,4 +20,5 @@ export default props => (
     </ul>
     <h2>{props.title}</h2>
   </header>
-)
+);
+export default header;

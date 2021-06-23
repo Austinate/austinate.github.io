@@ -1,7 +1,7 @@
 import React from "react"
 import Layout from "../components/layout"
 
-export default () => (
+const aboutLayout = () => (
   <Layout title="About">
     Hi! I'm Ostap Taran.<br/>
      I'm an iOS developer currently living in Kharkiv, Ukraine{" "}
@@ -48,4 +48,5 @@ export default () => (
       </li>
     </ul>
   </Layout>
-)
+);
+export default aboutLayout;

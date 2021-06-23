@@ -12,7 +12,7 @@ import Layout from "../components/layout"
 //   </div>
 // )
 
-export default ({ data }) => (
+const mainLayout = ({ data }) => (
   <Layout>
     <h1 style={{ textAlign: 'center' }}>
       Blog in progress{" "}
@@ -25,7 +25,8 @@ export default ({ data }) => (
       <MarkdownBlogPostPreview key={node.id} node={node} />
     ))} */}
   </Layout>
-)
+);
+export default mainLayout;
 
 // export const query = graphql`
 //   query {

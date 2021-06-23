@@ -1,6 +1,6 @@
 import React from "react"
 
-export default ({ children }) => (
+const footer =  ({ children }) => (
   <footer
     style={{
       width: "100%",
@@ -23,4 +23,5 @@ export default ({ children }) => (
       </div>
     </div>
   </footer>
-)
+);
+export default footer;
