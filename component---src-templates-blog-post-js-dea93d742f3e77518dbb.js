@@ -1,0 +1,2 @@
+(self.webpackChunkaustinate_me=self.webpackChunkaustinate_me||[]).push([[989],{4870:function(e,t,n){"use strict";n.r(t);var a=n(7294),l=n(2942);t.default=function(e){var t=e.data.markdownRemark;return a.createElement(l.Z,null,a.createElement("div",null,a.createElement("h1",null,t.frontmatter.title),a.createElement("div",{dangerouslySetInnerHTML:{__html:t.html}})))}}}]);
+//# sourceMappingURL=component---src-templates-blog-post-js-dea93d742f3e77518dbb.js.map

@@ -1,0 +1,2 @@
+(self.webpackChunkaustinate_me=self.webpackChunkaustinate_me||[]).push([[853],{7744:function(e,t,s){"use strict";s.r(t);var u=s(7294),a=s(2942);t.default=function(){return u.createElement(a.Z,{title:"Projects"},"Here you'll see a list of projects I helped to develop.")}}}]);
+//# sourceMappingURL=component---src-pages-projects-js-bad5edf34cf3a02f729a.js.map
