@@ -1,1 +1,0 @@
-{"version":3,"sources":["webpack:///./src/pages/contacts.js"],"names":["title"],"mappings":"0FAAA,oCAGe,4BAAM,kBAAC,IAAD,CAAQA,MAAM","file":"component---src-pages-contacts-js-384aa71810a145da26e0.js","sourcesContent":["import React from \"react\"\nimport Layout from \"../components/layout\"\n\nexport default () => <Layout title=\"Contacts\"></Layout>\n"],"sourceRoot":""}

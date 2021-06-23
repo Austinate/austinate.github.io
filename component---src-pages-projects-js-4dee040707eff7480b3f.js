@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[5],{206:function(e,t,o){"use strict";o.r(t);var n=o(0),r=o.n(n),s=o(201);t.default=function(){return r.a.createElement(s.a,{title:"Projects"},"Here you'll see a list of projects I helped to develop.")}}}]);
-//# sourceMappingURL=component---src-pages-projects-js-4dee040707eff7480b3f.js.map

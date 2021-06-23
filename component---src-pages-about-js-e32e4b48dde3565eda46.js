@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[2],{203:function(e,a,n){"use strict";n.r(a);var r=n(0),t=n.n(r),i=n(201);a.default=function(){return t.a.createElement(i.a,{title:"About"},t.a.createElement("p",null,"I'm Ostap Taran, and i'm an iOS developer currently living in Kharkiv, Ukraine"," ",t.a.createElement("span",{role:"img","aria-label":"flag of Ukraine"},"🇺🇦")))}}}]);
-//# sourceMappingURL=component---src-pages-about-js-e32e4b48dde3565eda46.js.map
