@@ -8,7 +8,7 @@ const ListLink = props => (
 )
 
 const header = props => (
-  <header style={{ maringBottom: "1.5rem" }}>
+  <header style={{ marginBottom: "1.5rem" }}>
     <Link to="/" style={{ textShadow: "none", backgroundImage: "none" }}>
       <h3 style={{ display: "inline" }}>austinate.me</h3>
     </Link>
