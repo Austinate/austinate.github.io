@@ -2,31 +2,38 @@ import React from "react"
 // import { Link, graphql } from "gatsby"
 import Layout from "../components/layout"
 
-// const MarkdownBlogPostPreview = props => (
+// const MarkdownBlogPostPreview = (props) => (
 //   <div>
 //     <div>
-//       <Link to={props.node.fields.slug} style={{ color: 'inherit' }}> {props.node.frontmatter.title}</Link>
-//       <p style={{ fontSize: "12pt" }}>{props.node.frontmatter.date}</p>
+//       <Link to={props.node.fields.slug} style={{ color: "inherit" }}>
+//         {" "}
+//         {props.node.frontmatter.title}
+//       </Link>
+//       <p style={{ fontSize: "10pt" }}>{props.node.frontmatter.date}</p>
 //     </div>
 //     <p>{props.node.excerpt}</p>
+//     <p style={{ textAlign: "center", opacity: 0.3 }}>↩︎</p>
 //   </div>
 // )
 
 const mainLayout = ({ data }) => (
   <Layout>
-    <h1 style={{ textAlign: 'center' }}>
+    <h1 style={{ textAlign: "center" }}>
       Blog in progress{" "}
       <span role="img" aria-label="tools emoji">
         🛠
       </span>
     </h1>
-    Until there will be any blog posts you can just check the "About" section.
+    <p style={{ textAlign: "center" }}>
+      But you can always check the "About" section.
+    </p>
+    {/* <h1 style={{ textAlign: "center" }}>Blog</h1> */}
     {/* {data.allMarkdownRemark.edges.map(({ node }) => (
       <MarkdownBlogPostPreview key={node.id} node={node} />
     ))} */}
   </Layout>
-);
-export default mainLayout;
+)
+export default mainLayout
 
 // export const query = graphql`
 //   query {

@@ -4,7 +4,7 @@ import Header from "../components/header"
 import Footer from "../components/footer"
 import { useStaticQuery, graphql } from "gatsby"
 
-const MainLayout = props => {
+const MainLayout = (props) => {
   const data = useStaticQuery(
     graphql`
       query {
@@ -26,7 +26,7 @@ const MainLayout = props => {
       <div
         style={{
           margin: `3rem auto`,
-          maxWidth: 650,
+          maxWidth: 800,
           padding: "0 15px",
           minHeight: "82vh",
         }}
@@ -37,5 +37,5 @@ const MainLayout = props => {
       <Footer />
     </div>
   )
-};
-export default MainLayout;
+}
+export default MainLayout
