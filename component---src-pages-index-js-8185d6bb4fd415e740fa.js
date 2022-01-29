@@ -1,2 +1,0 @@
-(self.webpackChunkgatsby_starter_hello_world=self.webpackChunkgatsby_starter_hello_world||[]).push([[678],{7704:function(e,t,l){"use strict";l.r(t);var r=l(7294),a=l(2942);t.default=function(e){e.data;return r.createElement(a.Z,null,r.createElement("h1",{style:{textAlign:"center"}},"Blog in progress"," ",r.createElement("span",{role:"img","aria-label":"tools emoji"},"🛠")),'Until there will be any blog posts you can just check the "About" section.')}}}]);
-//# sourceMappingURL=component---src-pages-index-js-8185d6bb4fd415e740fa.js.map

@@ -1,2 +1,0 @@
-(self.webpackChunkgatsby_starter_hello_world=self.webpackChunkgatsby_starter_hello_world||[]).push([[853],{7744:function(e,t,l){"use strict";l.r(t);var r=l(7294),s=l(2942);t.default=function(){return r.createElement(s.Z,{title:"Projects"},"Here you'll see a list of projects I helped to develop.")}}}]);
-//# sourceMappingURL=component---src-pages-projects-js-0b6f8fc203d9fefed29d.js.map
