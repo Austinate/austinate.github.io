@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkaustinate_me=self.webpackChunkaustinate_me||[]).push([[853],{7219:function(e,t,s){s.r(t);var u=s(7294),a=s(8883);t.default=function(){return u.createElement(a.Z,{title:"Projects"},"Here you'll see a list of projects I helped to develop.")}}}]);
+//# sourceMappingURL=component---src-pages-projects-js-0d85b9c7c4c5aec9a023.js.map
