@@ -5,12 +5,12 @@ const aboutLayout = () => (
   <Layout title="About">
     Hi! I'm Ostap Taran.
     <br />
-    I'm an iOS developer currently living in Kharkiv, Ukraine{" "}
+    I'm an iOS engineer from Ukraine{" "}
     <span role="img" aria-label="flag of Ukraine">
       🇺🇦
     </span>
     <p />
-    Currently, I'm holding a position of Lead iOS Software Engineer at{" "}
+    Currently, I'm holding a position of Chief Software Engineer at{" "}
     <a href="https://epam.com">EPAM</a>.
     <br />
     You can find me on <a href="https://github.com/austinate">GitHub</a>,{" "}
