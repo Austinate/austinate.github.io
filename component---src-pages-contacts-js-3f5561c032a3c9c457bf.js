@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkaustinate_me=self.webpackChunkaustinate_me||[]).push([[98],{7994:function(e,t,n){n.r(t);var a=n(7294),u=n(8883);t.default=function(){return a.createElement(u.Z,{title:"Contacts"})}}}]);
-//# sourceMappingURL=component---src-pages-contacts-js-3f5561c032a3c9c457bf.js.map
