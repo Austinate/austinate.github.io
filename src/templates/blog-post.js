@@ -1,6 +1,7 @@
 import React from "react"
 import { graphql } from "gatsby"
 import Layout from "../components/layout"
+import SEOComponent from "../components/seo"
 
 const postLayout = ({ data }) => {
   const post = data.markdownRemark
@@ -15,12 +16,24 @@ const postLayout = ({ data }) => {
   )
 }
 export default postLayout
+export const Head = ({ data }) => {
+  return (
+    <SEOComponent
+      title={`${data.markdownRemark.frontmatter.title} | ${data.site.siteMetadata.title}`}
+    />
+  )
+}
 
 export const query = graphql`
   query ($slug: String!) {
     markdownRemark(fields: { slug: { eq: $slug } }) {
       html
       frontmatter {
+        title
+      }
+    }
+    site {
+      siteMetadata {
         title
       }
     }

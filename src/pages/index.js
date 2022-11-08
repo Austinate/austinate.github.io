@@ -28,8 +28,8 @@ const mainLayout = ({ data }) => (
     <p style={{ textAlign: "center" }}>
       But you can always check the "About" section.
     </p>
-    {/* <h1 style={{ textAlign: "center" }}>Blog</h1> */}
-    {/* {data.allMarkdownRemark.edges.map(({ node }) => (
+    {/* <h1 style={{ textAlign: "center" }}>Blog</h1>
+    {data.allMarkdownRemark.edges.map(({ node }) => (
       <MarkdownBlogPostPreview key={node.id} node={node} />
     ))} */}
   </Layout>
@@ -40,7 +40,7 @@ export const Head = () => <SEOComponent />
 
 // export const query = graphql`
 //   query {
-//     allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
+//     allMarkdownRemark(sort: { frontmatter: { date: DESC } }) {
 //       totalCount
 //       edges {
 //         node {
