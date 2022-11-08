@@ -1,5 +1,6 @@
 import React from "react"
 import Layout from "../components/layout"
+import SEOComponent from "../components/seo"
 
 const aboutLayout = () => (
   <Layout title="About">
@@ -51,3 +52,4 @@ const aboutLayout = () => (
   </Layout>
 )
 export default aboutLayout
+export const Head = () => <SEOComponent />
