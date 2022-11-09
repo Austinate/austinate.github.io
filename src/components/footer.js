@@ -1,6 +1,7 @@
 import React from "react"
+import { Link } from "gatsby"
 
-const footer =  ({ children }) => (
+const footer = ({ children }) => (
   <footer
     style={{
       width: "100%",
@@ -17,11 +18,23 @@ const footer =  ({ children }) => (
       }}
     >
       {children}
-      <div style={{ fontSize: "12pt" }}>
-        © {new Date().getFullYear()} Ostap Taran. This website is made with{" "}
-        <a href="https://gatsbyjs.org" target="_blank"  rel="noopener noreferrer">Gatsby.js</a>
+      <div
+        style={{
+          fontSize: "12pt",
+          textAlign: "center",
+        }}
+      >
+        Follow posts <Link to="/rss.xml">via RSS</Link>
+        <br />©{new Date().getFullYear()} Ostap Taran. This website is made with{" "}
+        <a
+          href="https://gatsbyjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Gatsby.js
+        </a>
       </div>
     </div>
   </footer>
-);
-export default footer;
+)
+export default footer

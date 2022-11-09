@@ -50,17 +50,21 @@ module.exports = {
         feeds: [
           {
             serialize: ({ query: { site, allMarkdownRemark } }) => {
-              return allMarkdownRemark.edges.map((edge) => {
-                return Object.assign({}, edge.node.frontmatter, {
-                  description: edge.node.excerpt,
-                  date: edge.node.frontmatter.date,
-                  url: encodeURI(
-                    site.siteMetadata.siteUrl + edge.node.fields.slug
-                  ),
-                  guid: site.siteMetadata.siteUrl + edge.node.fields.slug,
-                  custom_elements: [{ "content:encoded": edge.node.html }],
+              return allMarkdownRemark.edges
+                .filter((edge) => {
+                  return edge.node.frontmatter.published
                 })
-              })
+                .map((edge) => {
+                  return Object.assign({}, edge.node.frontmatter, {
+                    description: edge.node.excerpt,
+                    date: edge.node.frontmatter.date,
+                    url: encodeURI(
+                      site.siteMetadata.siteUrl + edge.node.fields.slug
+                    ),
+                    guid: site.siteMetadata.siteUrl + edge.node.fields.slug,
+                    custom_elements: [{ "content:encoded": edge.node.html }],
+                  })
+                })
             },
             query: `
               {
@@ -73,6 +77,7 @@ module.exports = {
                       frontmatter {
                         title
                         date
+                        published
                       }
                     }
                   }
