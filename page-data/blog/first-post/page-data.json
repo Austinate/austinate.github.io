@@ -1,1 +1,0 @@
-{"componentChunkName":"component---src-templates-blog-post-js","path":"/blog/first-post/","result":{"data":{"markdownRemark":{"html":"<p>Here will be my first post</p>","frontmatter":{"title":"First post"}},"site":{"siteMetadata":{"title":"Ostap Taran"}}},"pageContext":{"slug":"/blog/first-post/"}},"staticQueryHashes":["512065377"],"slicesMap":{}}
