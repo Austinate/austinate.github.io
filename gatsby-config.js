@@ -47,6 +47,17 @@ module.exports = {
             }
           }
         `,
+        // Setup an RSS object
+        setup: (options) => ({
+          ...options,
+          // by adding a custom element for Atom link, per https://github.com/gatsbyjs/gatsby/issues/26325
+          custom_elements: [
+            {
+              'atom:link href="https://austinate.me/rss.xml" rel="self" type="application/rss+xml"':
+                null,
+            },
+          ],
+        }),
         feeds: [
           {
             serialize: ({ query: { site, allMarkdownRemark } }) => {
