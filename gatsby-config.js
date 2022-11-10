@@ -7,6 +7,7 @@
 module.exports = {
   siteMetadata: {
     title: "austinate.me",
+    rssTitle: "austinate.me RSS Feed",
     siteUrl: "https://austinate.me",
   },
   plugins: [
