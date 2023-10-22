@@ -4,23 +4,28 @@ import SEOComponent from "../components/seo"
 
 const aboutLayout = () => (
   <Layout title="About">
-    Hi! I'm Ostap Taran.
-    <br />
-    I'm an iOS engineer from Ukraine{" "}
+    Hi! I'm Ostap Taran, an iOS engineer based in Germany{" "}
+    <span role="img" aria-label="flag of Germany">
+      🇩🇪
+    </span>
+    , originally from Ukraine{" "}
     <span role="img" aria-label="flag of Ukraine">
       🇺🇦
     </span>
+    .
     <p />
-    Currently, I'm holding a position of Chief Software Engineer at{" "}
-    <a href="https://epam.com">EPAM</a>.
+    I'm a Senior iOS Engineer at <a href="https://sumup.com">SumUp</a>.
     <br />
     You can find me on <a href="https://github.com/austinate">GitHub</a>,{" "}
-    <a href="https://www.linkedin.com/in/ostap-taran/">LinkedIn</a>,{" "}
-    <a href="https://twitter.com/muroomsh">Twitter</a> and{" "}
-    <a href="https://www.instagram.com/austinate/">Instagram</a>
+    <a href="https://mastodon.social/@austinate">Mastodon</a>, or{" "}
+    <a href="https://www.linkedin.com/in/ostap-taran/">LinkedIn</a>
     <p />
     My previous experience:
     <ul>
+      <li>
+        June 2020 - Oct 2023, Chief Software Engineer at{" "}
+        <a href="https://epam.com">EPAM</a>.
+      </li>
       <li>
         May 2017 - June 2020, CTO & Co-founder at{" "}
         <a href="https://7devs.co">7Devs</a>
